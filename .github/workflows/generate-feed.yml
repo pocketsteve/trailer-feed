@@ -1,0 +1,44 @@
+name: Generate Film Trailer RSS Feed
+
+on:
+  schedule:
+    # Runs every 2 hours. Adjust the cron if you want more/less frequent updates.
+    # Cron reference: https://crontab.guru/
+    - cron: '0 */2 * * *'
+
+  # Lets you trigger a run manually from the Actions tab in GitHub — useful for testing.
+  workflow_dispatch:
+
+permissions:
+  contents: write   # Required to commit the updated feed.xml back to the repo
+
+jobs:
+  generate-feed:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install feedparser pyyaml
+
+      - name: Generate RSS feed
+        run: python generate_feed.py
+
+      - name: Commit and push updated feed
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name  "github-actions[bot]"
+          git add docs/feed.xml
+          if git diff --staged --quiet; then
+            echo "Feed unchanged — no new trailers found."
+          else
+            git commit -m "chore: update trailer feed [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+            git push
+          fi

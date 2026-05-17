@@ -1,0 +1,64 @@
+# channels.yaml
+# -------------
+# Configuration for the YouTube Trailer RSS feed generator.
+#
+# HOW TO FIND A CHANNEL ID
+# ------------------------
+# Run: python find_channel_id.py @ChannelHandle
+# e.g. python find_channel_id.py @A24
+#
+# Or manually: go to the channel page, View Source, search for "channelId".
+# The RSS feed for any channel is:
+#   https://www.youtube.com/feeds/videos.xml?channel_id=UC...
+
+# ── Feed metadata (shown in your RSS reader) ────────────────────────────────
+feed_title:       "Film Trailers"
+feed_description: "Latest film trailers from major studios, filtered automatically."
+feed_link:        "https://YOUR_GITHUB_USERNAME.github.io/youtube-trailer-rss/feed.xml"
+
+# ── Filter keywords (case-insensitive, any match = include) ─────────────────
+# A video is included if its title contains ANY of these words.
+filter_keywords:
+  - "trailer"
+  - "Trailer"
+  - "teaser"
+  - "Teaser"
+
+# ── Channels to monitor ─────────────────────────────────────────────────────
+# Run `python find_channel_id.py @Handle` to get the id for each channel.
+# eg. python find_channel_id.py @WarnerBros
+
+channels:
+  - name: A24
+    id:   UCuPivVjnfNo4mb3Oog_frZg
+
+  - name: Warner Bros. Pictures
+    id:   UCjmJDM5pRKbUlVIzDYYWb6g
+
+  - name: 20th Century Studios
+    id:   UCi_MYg8bBEbfIHfLRxGd_Eg
+
+  - name: Amazon MGM Studios
+    id:   UCf5CjDJvsFvtVIhkfmKAwAA
+
+  - name: Netflix
+    id:   ""   # python find_channel_id.py @Netflix
+
+  - name: Pixar
+    id:   ""   # python find_channel_id.py @Pixar
+
+  - name: Universal Pictures
+    id:   ""   # python find_channel_id.py @UniversalPictures
+
+  - name: Marvel Entertainment
+    id:   ""   # python find_channel_id.py @Marvel
+
+  - name: Disney
+    id:   ""   # python find_channel_id.py @Disney
+
+  # Add as many more channels as you like:
+  # - name: Sony Pictures
+  #   id:   ""   # python find_channel_id.py @SonyPictures
+  #
+  # - name: Lionsgate Movies
+  #   id:   ""   # python find_channel_id.py @LionsgateMovies
