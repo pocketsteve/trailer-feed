@@ -17,10 +17,10 @@ from xml.etree.ElementTree import Element, SubElement, tostring
 import xml.etree.ElementTree as ET
 
 CONFIG_FILE  = "channels.yaml"
-OUTPUT_FILE  = os.path.join("docs", "feed.xml")
+# OUTPUT_FILE  = os.path.join("docs", "feed.xml")
 
 # This is my test feed
-# OUTPUT_FILE  = os.path.join("docs", "feed_trial.xml") 
+OUTPUT_FILE  = os.path.join("docs", "feed_trial.xml") 
 
 
 # ---------------------------------------------------------------------------
@@ -33,7 +33,8 @@ def load_config(path: str) -> dict:
 
 
 def fetch_channel_feed(channel_id: str):
-    url = f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"
+#    url = f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"
+    url = f"UniversalPictures_example.xml"
     return feedparser.parse(url)
 
 
@@ -154,8 +155,10 @@ def main():
                 matched += 1
 
         total = len(feed.entries)
-        status = "The feed is empty" if total == 0 else f"{matched}/{total} matched"
+        status = "This feed is empty" if total == 0 else f"{matched}/{total} matched"
         print(f"  {name:<30} {status}")
+
+        break
 
     if errors:
         print()
