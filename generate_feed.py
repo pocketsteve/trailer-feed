@@ -20,7 +20,7 @@ CONFIG_FILE  = "channels.yaml"
 OUTPUT_FILE  = os.path.join("docs", "feed.xml")
 
 # This is my test feed
-# OUTPUT_FILE  = os.path.join("docs", "feed_trial.xml") 
+# OUTPUT_FILE  = os.path.join("docs", "feed_trial.xml")
 
 
 # ---------------------------------------------------------------------------
