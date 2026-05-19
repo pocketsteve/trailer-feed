@@ -19,6 +19,9 @@ import xml.etree.ElementTree as ET
 CONFIG_FILE  = "channels.yaml"
 OUTPUT_FILE  = os.path.join("docs", "feed.xml")
 
+# This is my test feed
+# OUTPUT_FILE  = os.path.join("docs", "feed_trial.xml") 
+
 
 # ---------------------------------------------------------------------------
 # Helpers
@@ -58,6 +61,7 @@ def get_description(entry) -> str:
     thumb   = get_thumbnail(entry)
     if thumb:
         img = f'<img src="{thumb}" alt="thumbnail" style="max-width:100%"/><br/>'
+        summary = summary.replace('\n', '<br />')
         return img + summary
     return summary
 

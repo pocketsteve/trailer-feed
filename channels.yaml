@@ -30,31 +30,49 @@ filter_keywords:
 
 channels:
   - name: A24
-    id:   UCuPivVjnfNo4mb3Oog_frZg
+    id:   UCuPivVjnfNo4mb3Oog_frZg   # python find_channel_id.py @A24
 
   - name: Warner Bros. Pictures
-    id:   UCjmJDM5pRKbUlVIzDYYWb6g
+    id:   UCjmJDM5pRKbUlVIzDYYWb6g   # python find_channel_id.py @WarnerBros
 
   - name: 20th Century Studios
-    id:   UCi_MYg8bBEbfIHfLRxGd_Eg
+    id:   UCi_MYg8bBEbfIHfLRxGd_Eg   # python find_channel_id.py @20thCenturyStudios
 
   - name: Amazon MGM Studios
-    id:   UCf5CjDJvsFvtVIhkfmKAwAA
+    id:   UCf5CjDJvsFvtVIhkfmKAwAA   # python find_channel_id.py @AmazonMGMStudios
 
   - name: Netflix
-    id:   ""   # python find_channel_id.py @Netflix
+    id:   UCGie8GMlUo3kBKIopdvumVQ   # python find_channel_id.py @Netflix
 
   - name: Pixar
-    id:   ""   # python find_channel_id.py @Pixar
+    id:   UC_5niPa-d35gg88HaS7RrIw   # python find_channel_id.py @Pixar
 
   - name: Universal Pictures
-    id:   ""   # python find_channel_id.py @UniversalPictures
+    id:   UCq7OHvWO6Z3u-LztFdrcU-g   # python find_channel_id.py @UniversalPictures
 
   - name: Marvel Entertainment
-    id:   ""   # python find_channel_id.py @Marvel
+    id:   UCxwitsUVNzwS5XBSC5UQV8Q   # python find_channel_id.py @Marvel
 
   - name: Disney
-    id:   ""   # python find_channel_id.py @Disney
+    id:   UCIrgJInjLS2BhlHOMDW7v0g   # python find_channel_id.py @Disney
+
+  - name: Neon
+    id:   UCpy5dRhZd-JbZP4NsrnLt1w   # python find_channel_id.py @neonrated
+
+  - name: Star Wars
+    id:   UCZGYJFUizSax-yElQaFDp5Q   # python find_channel_id.py @StarWars
+
+  - name: AppleTV
+    id:   UC1Myj674wRVXB9I4c6Hm5zA   # python find_channel_id.py @AppleTV
+
+  - name: Focus Features
+    id:   UCU4SM3j_9TNWaSu8KdGV50g   # python find_channel_id.py @FocusFeatures
+
+  - name: HBO Max
+    id:   UCVTQuK2CaWaTgSsoNkn5AiQ   # python find_channel_id.py @hbomax
+
+  - name: IFC (Independent Film Company)
+    id:   UCOn923UnbV8H9zo_lO6ZCRw   # python find_channel_id.py @IndependentFilmCompany
 
   # Add as many more channels as you like:
   # - name: Sony Pictures

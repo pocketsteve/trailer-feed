@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Film Trailers</title>
+    <link>https://YOUR_GITHUB_USERNAME.github.io/youtube-trailer-rss/feed.xml</link>
+    <description>Latest film trailers from major studios, filtered automatically.</description>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 19 May 2026 00:21:19 +0000</lastBuildDate>
+  </channel>
+</rss>
