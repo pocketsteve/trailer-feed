@@ -26,7 +26,8 @@ filter_keywords:
 
 # ── Channels to monitor ─────────────────────────────────────────────────────
 # Run `python find_channel_id.py @Handle` to get the id for each channel.
-# eg. python find_channel_id.py @WarnerBros
+# MacBook eg. python find_channel_id.py @WarnerBros 
+# PC eg. python find_channel_id.py WarnerBros
 
 channels:
   - name: A24
@@ -73,6 +74,42 @@ channels:
 
   - name: IFC (Independent Film Company)
     id:   UCOn923UnbV8H9zo_lO6ZCRw   # python find_channel_id.py @IndependentFilmCompany
+
+  - name: Madman Films
+    id:   UCOhH5jCcYTB6NRDN1o1byNQ   # python find_channel_id.py @madmanfilms
+
+  - name: TIFF (Toronto Film Festival)
+    id:   UCmUpllWyvJ2eNCbZcNBJb4Q   # python find_channel_id.py @TIFF
+
+  - name: LAIKA Studios
+    id:   UCBnyjFhOn23xjsqOUW4j6OQ   # python find_channel_id.py @LAIKAStudios
+
+  - name: Paramount Pictures
+    id:   UCF9imwPMSGz4Vq1NiTWCC7g   # python find_channel_id.py @paramountpictures
+
+  - name: Netflix Anime
+    id:   UCWOA1ZGywLbqmigxE4Qlvuw   # python find_channel_id.py @netflixanime
+
+  - name: GKIDS Films
+    id:   UCb9ME2w6Y_4jChUVlWdltVg   # python find_channel_id.py @GKIDStv
+
+  - name: Lionsgate Movies
+    id:   UCFR6sruqEq52xEqjE84tq4A   # python find_channel_id.py @LionsgateMovies
+
+  - name: The Match Factory
+    id:   UCG86UBphmE3QMywyb-0tinA   # python find_channel_id.py @TheMatchFactory
+
+  - name: Strand Releasing
+    id:   UClpp6NmLid7CvUkI-h17n5Q   # python find_channel_id.py @StrandReleasing
+
+  - name: Vertigo Releasing
+    id:   UCefhESyKGOoCELWYdR_S4Wg   # python find_channel_id.py @VertigoReleasing
+
+  - name: Well Go USA Entertainment
+    id:   UC21lcQWGtj3WG6W8XTNCICQ   # python find_channel_id.py @wellgousa
+
+  - name: Working Title
+    id:   UC0noL-MX_kMr81iHXU2LSxw   # python find_channel_id.py @workingtitlefilms
 
   # Add as many more channels as you like:
   # - name: Sony Pictures
