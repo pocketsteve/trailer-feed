@@ -43,7 +43,12 @@ channels:
     id:   UCf5CjDJvsFvtVIhkfmKAwAA   # python find_channel_id.py @AmazonMGMStudios
 
   - name: Netflix
-    id:   UCGie8GMlUo3kBKIopdvumVQ   # python find_channel_id.py @Netflix
+    id:   UCWOA1ZGywLbqmigxE4Qlvuw   # python find_channel_id.py @Netflix
+#    id:   UCGie8GMlUo3kBKIopdvumVQ   # Original channel_id from script. (ID for @stillwatchingnetflix)
+
+  - name: Netflix Anime
+    id:   UCBSs9x2KzSLhyyA9IKyt4YA   # python find_channel_id.py @netflixanime
+#    id:   UCWOA1ZGywLbqmigxE4Qlvuw   # Original channel_id from script. (ID for @Netflix)
 
   - name: Pixar
     id:   UC_5niPa-d35gg88HaS7RrIw   # python find_channel_id.py @Pixar
@@ -86,9 +91,6 @@ channels:
 
   - name: Paramount Pictures
     id:   UCF9imwPMSGz4Vq1NiTWCC7g   # python find_channel_id.py @paramountpictures
-
-  - name: Netflix Anime
-    id:   UCWOA1ZGywLbqmigxE4Qlvuw   # python find_channel_id.py @netflixanime
 
   - name: GKIDS Films
     id:   UCb9ME2w6Y_4jChUVlWdltVg   # python find_channel_id.py @GKIDStv

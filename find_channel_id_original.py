@@ -30,8 +30,8 @@ CHANNEL_ID_RE = re.compile(r'"(UC[a-zA-Z0-9_-]{22})"')
 
 # Patterns to look for in the page source
 SEARCH_PATTERNS = [
-#    re.compile(r'"channelId"\s*:\s*"(UC[a-zA-Z0-9_-]{22})"'),
-#    re.compile(r'"externalId"\s*:\s*"(UC[a-zA-Z0-9_-]{22})"'),
+    re.compile(r'"channelId"\s*:\s*"(UC[a-zA-Z0-9_-]{22})"'),
+    re.compile(r'"externalId"\s*:\s*"(UC[a-zA-Z0-9_-]{22})"'),
     re.compile(r'"browseId"\s*:\s*"(UC[a-zA-Z0-9_-]{22})"'),
     re.compile(r'channel_id=(UC[a-zA-Z0-9_-]{22})'),
     # Fallback: most frequent UC* string in the page is usually the channel itself
