@@ -77,13 +77,13 @@ channels:
   - name: HBO Max
     id:   UCVTQuK2CaWaTgSsoNkn5AiQ   # python find_channel_id.py @hbomax
 
-  - name: IFC (Independent Film Company)
+  - name: IFC Films
     id:   UCOn923UnbV8H9zo_lO6ZCRw   # python find_channel_id.py @IndependentFilmCompany
 
   - name: Madman Films
     id:   UCOhH5jCcYTB6NRDN1o1byNQ   # python find_channel_id.py @madmanfilms
 
-  - name: TIFF (Toronto Film Festival)
+  - name: TIFF - Toronto Film Festival
     id:   UCmUpllWyvJ2eNCbZcNBJb4Q   # python find_channel_id.py @TIFF
 
   - name: LAIKA Studios
@@ -112,6 +112,26 @@ channels:
 
   - name: Working Title
     id:   UC0noL-MX_kMr81iHXU2LSxw   # python find_channel_id.py @workingtitlefilms
+
+  - name: Saban Films
+    id:   UCkaUErzjD9UUM8D-loIm5vA   # python find_channel_id.py @sabanfilms4890
+
+  - name: Vertical
+    id:   UCpR3kmSyTYszJHWEcmpcnFQ   # python find_channel_id.py @Vertical_Official
+
+  - name: Roadside Attractions
+    id:   UCH45phx_o8pNt9PwbjxWhcA   # python find_channel_id.py @RoadsideFlix
+
+  - name: Sony Pictures
+    id:   UCz97F7dMxBNOfGYu3rx8aCw   # python find_channel_id.py @SonyPictures
+
+  - name: Bleecker Street
+    id:   UCafnP6JPjVq8AahYaThUelg   # python find_channel_id.py @BleeckerStFilms
+
+  - name: Blumhouse
+    id:   UCCEfOHkckMXnoZQAjUZsMig   # python find_channel_id.py @Blumhouse
+
+
 
   # Add as many more channels as you like:
   # - name: Sony Pictures
