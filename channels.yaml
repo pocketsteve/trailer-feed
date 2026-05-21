@@ -75,7 +75,7 @@ channels:
     id:   UCU4SM3j_9TNWaSu8KdGV50g   # python find_channel_id.py @FocusFeatures
 
   - name: HBO Max
-    id:   UCVTQuK2CaWaTgSsoNkn5AiQ   # python find_channel_id.py @hbomax
+    id:   UCx-KWLTKlB83hDI6UKECtJQ   # python find_channel_id.py @HBOMax
 
   - name: IFC Films
     id:   UCOn923UnbV8H9zo_lO6ZCRw   # python find_channel_id.py @IndependentFilmCompany
@@ -130,6 +130,45 @@ channels:
 
   - name: Blumhouse
     id:   UCCEfOHkckMXnoZQAjUZsMig   # python find_channel_id.py @Blumhouse
+
+  - name: Park Circus
+    id:   UCBgYZngXEswPgKht9CQhWvg   # python find_channel_id.py @ParkCircusFilms
+
+  - name: Palace Films
+    id:   UCA6QL2zbGrskJ0ur6MKpDAg   # python find_channel_id.py @PalaceFilms
+
+  - name: XYZ Films
+    id:   UC82a54ONoesmTcQInXvFl9A   # python find_channel_id.py @XYZFILMS
+
+  - name: Pathe
+    id:   UCGVrjz7s7ui-c4BHZ155Ylg   # python find_channel_id.py @pathe
+
+  - name: West End Films UK
+    id:   UCAI9BQesA_r2ftXnN-3klIw   # python find_channel_id.py @WestEndFilmsUK
+
+  - name: Sony Pictures Classics
+    id:   UCruD_lL-5fmllpKMSL-yCyQ   # python find_channel_id.py @SonyPicturesClassics
+
+  - name: Sony Pictures Animation
+    id:   UCnLuLSV-Oi0ctqjxGgxFlmg   # python find_channel_id.py @SonyAnimation
+
+  - name: Voltage Pictures
+    id:   UC9S7BBUoWErI-50YI2ASoiw   # python find_channel_id.py @VoltagePictures
+
+  - name: Studio Canal UK
+    id:   UCFSILgKCKo35QYGz8Kob51g   # python find_channel_id.py @studiocanaluk
+
+  - name: Searchlight Pictures
+    id:   UCor9rW6PgxSQ9vUPWQdnaYQ   # python find_channel_id.py @searchlightpictures
+
+  - name: MUBI
+    id:   UCb6-VM5UQ4Czj_d3m9EPGfg   # python find_channel_id.py @mubi
+
+  - name: Modern Films
+    id:   UCLO6RlTfqD2xUEgfAqgjrSg   # python find_channel_id.py @ModernFilms
+
+  - name: Magnolia Pictures
+    id:   UCneoi6WTgRjMh4otvpwzv8w   # python find_channel_id.py @magnoliapics
 
 
 
