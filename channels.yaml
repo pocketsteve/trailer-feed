@@ -173,6 +173,9 @@ channels:
   - name: K2 Pictures
     id:   UCXjiG9HYmR5aUumvyDHmCbQ   # python find_channel_id.py @K2P_PR
 
+  - name: GAGA International
+    id:   UCYaqbZsW26G8TmjkDJ_yuHg   # python find_channel_id.py @GAGAIntl
+
 
   # Add as many more channels as you like:
   # - name: Sony Pictures
