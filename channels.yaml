@@ -170,6 +170,8 @@ channels:
   - name: Magnolia Pictures
     id:   UCneoi6WTgRjMh4otvpwzv8w   # python find_channel_id.py @magnoliapics
 
+  - name: K2 Pictures
+    id:   UCXjiG9HYmR5aUumvyDHmCbQ   # python find_channel_id.py @K2P_PR
 
 
   # Add as many more channels as you like:
